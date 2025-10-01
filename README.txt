@@ -9,9 +9,9 @@ Note: The project was developed on Google Colab using Google Drive as cloud stor
 -------------------------------------------------------------------
 Project Directory Structure
 
-The project directory contains the following files and folders:
+The project directory contains the following files and folders (if a link is provided the file size excedes the limitations and must be downloaded from another source):
 
-- download.zip – the EMO-DB dataset
+- download.zip (http://emodb.bilderbar.info/index-1280.html) – the EMO-DB dataset (download it from the website and place it in the same directory as the other files)
 - audio.zip – the audio files we recorded for testing
 - Classification of Emotions using Emo-DB.pdf – the project report (not required, but included for completeness)
 - FDL_project_presentation.pdf – the project presentation slides
@@ -19,9 +19,7 @@ The project directory contains the following files and folders:
 - FDL_project_developement_with_saved_weights.ipynb – same as above, but models are not retrained (weights are loaded)
 - FDL_project_test.ipynb – notebook for testing the final model on our custom audio files
 - FDL_project_test_with_saved_weights.ipynb – same as above, but models are not retrained (weights are loaded)
-- ModelsWeights/ – directory containing pretrained model weights
-  - If compressed, unzip before use.
-  - If provided as a link, place the folder in the same directory as the other project files.
+- ModelsWeights/ (https://drive.google.com/drive/folders/1Stt-d1HFR45A4qVq8F5gSlikGyOSnCaJ?usp=drive_link) – directory containing pretrained model weights, place the folder in the same directory as the other project files.
 
 -------------------------------------------------------------------
 How to Reproduce the Project
@@ -29,9 +27,10 @@ How to Reproduce the Project
 Reproducing this project is straightforward:
 
 1. Upload the project folder to MyDrive in Google Drive.
-2. Unzip (or place) the ModelsWeights/ directory in the project folder.
+2. Place download.zip and the ModelsWeights/ directory in the project folder.
 3. Open the .ipynb notebooks in Google Colab.
 4. Run the notebooks:
    - To reproduce the exact results described in the report and presentation, execute the _with_saved_weights versions.
    - These versions are also significantly faster since model training (fitting) is skipped.
+
 
